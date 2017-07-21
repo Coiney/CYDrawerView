@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC51BB4F1F21CCEE00392073 /* CYDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC51BB4E1F21CCEE00392073 /* CYDrawerView.m */; };
+		DCB3E4E41F170F2A00F9B264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3E4E31F170F2A00F9B264 /* AppDelegate.swift */; };
+		DCB3E4E61F170F2A00F9B264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3E4E51F170F2A00F9B264 /* ViewController.swift */; };
+		DCB3E4E91F170F2A00F9B264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB3E4E71F170F2A00F9B264 /* Main.storyboard */; };
+		DCB3E4EB1F170F2A00F9B264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB3E4EA1F170F2A00F9B264 /* Assets.xcassets */; };
+		DCB3E4EE1F170F2A00F9B264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB3E4EC1F170F2A00F9B264 /* LaunchScreen.storyboard */; };
+		DCB3E4F91F170F2A00F9B264 /* DrawerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3E4F81F170F2A00F9B264 /* DrawerDemoTests.swift */; };
+		DCB3E5041F170F2A00F9B264 /* DrawerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3E5031F170F2A00F9B264 /* DrawerDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB3E4F51F170F2A00F9B264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB3E4D81F170F2A00F9B264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB3E4DF1F170F2A00F9B264;
+			remoteInfo = DrawerDemo;
+		};
+		DCB3E5001F170F2A00F9B264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB3E4D81F170F2A00F9B264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB3E4DF1F170F2A00F9B264;
+			remoteInfo = DrawerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC51BB4D1F21CCEE00392073 /* CYDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYDrawerView.h; path = ../../CYDrawerView.h; sourceTree = "<group>"; };
+		DC51BB4E1F21CCEE00392073 /* CYDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYDrawerView.m; path = ../../CYDrawerView.m; sourceTree = "<group>"; };
+		DCB3E4E01F170F2A00F9B264 /* DrawerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB3E4E31F170F2A00F9B264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB3E4E51F170F2A00F9B264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCB3E4E81F170F2A00F9B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB3E4EA1F170F2A00F9B264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB3E4ED1F170F2A00F9B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB3E4EF1F170F2A00F9B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB3E4F41F170F2A00F9B264 /* DrawerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB3E4F81F170F2A00F9B264 /* DrawerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerDemoTests.swift; sourceTree = "<group>"; };
+		DCB3E4FA1F170F2A00F9B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB3E4FF1F170F2A00F9B264 /* DrawerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB3E5031F170F2A00F9B264 /* DrawerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerDemoUITests.swift; sourceTree = "<group>"; };
+		DCB3E5051F170F2A00F9B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB3E5121F170FC300F9B264 /* DrawerDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawerDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB3E4DD1F170F2A00F9B264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3E4F11F170F2A00F9B264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3E4FC1F170F2A00F9B264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB3E4D71F170F2A00F9B264 = {
+			isa = PBXGroup;
+			children = (
+				DCB3E4E21F170F2A00F9B264 /* DrawerDemo */,
+				DCB3E4F71F170F2A00F9B264 /* DrawerDemoTests */,
+				DCB3E5021F170F2A00F9B264 /* DrawerDemoUITests */,
+				DCB3E4E11F170F2A00F9B264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB3E4E11F170F2A00F9B264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3E4E01F170F2A00F9B264 /* DrawerDemo.app */,
+				DCB3E4F41F170F2A00F9B264 /* DrawerDemoTests.xctest */,
+				DCB3E4FF1F170F2A00F9B264 /* DrawerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB3E4E21F170F2A00F9B264 /* DrawerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3E4E31F170F2A00F9B264 /* AppDelegate.swift */,
+				DCB3E4E51F170F2A00F9B264 /* ViewController.swift */,
+				DCB3E4E71F170F2A00F9B264 /* Main.storyboard */,
+				DCB3E4EA1F170F2A00F9B264 /* Assets.xcassets */,
+				DCB3E4EC1F170F2A00F9B264 /* LaunchScreen.storyboard */,
+				DCB3E5111F170FAA00F9B264 /* CYDrawerView */,
+				DCB3E4EF1F170F2A00F9B264 /* Info.plist */,
+			);
+			path = DrawerDemo;
+			sourceTree = "<group>";
+		};
+		DCB3E4F71F170F2A00F9B264 /* DrawerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3E4F81F170F2A00F9B264 /* DrawerDemoTests.swift */,
+				DCB3E4FA1F170F2A00F9B264 /* Info.plist */,
+			);
+			path = DrawerDemoTests;
+			sourceTree = "<group>";
+		};
+		DCB3E5021F170F2A00F9B264 /* DrawerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3E5031F170F2A00F9B264 /* DrawerDemoUITests.swift */,
+				DCB3E5051F170F2A00F9B264 /* Info.plist */,
+			);
+			path = DrawerDemoUITests;
+			sourceTree = "<group>";
+		};
+		DCB3E5111F170FAA00F9B264 /* CYDrawerView */ = {
+			isa = PBXGroup;
+			children = (
+				DC51BB4D1F21CCEE00392073 /* CYDrawerView.h */,
+				DC51BB4E1F21CCEE00392073 /* CYDrawerView.m */,
+				DCB3E5121F170FC300F9B264 /* DrawerDemo-Bridging-Header.h */,
+			);
+			name = CYDrawerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB3E4DF1F170F2A00F9B264 /* DrawerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB3E5081F170F2A00F9B264 /* Build configuration list for PBXNativeTarget "DrawerDemo" */;
+			buildPhases = (
+				DCB3E4DC1F170F2A00F9B264 /* Sources */,
+				DCB3E4DD1F170F2A00F9B264 /* Frameworks */,
+				DCB3E4DE1F170F2A00F9B264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerDemo;
+			productName = DrawerDemo;
+			productReference = DCB3E4E01F170F2A00F9B264 /* DrawerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB3E4F31F170F2A00F9B264 /* DrawerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB3E50B1F170F2A00F9B264 /* Build configuration list for PBXNativeTarget "DrawerDemoTests" */;
+			buildPhases = (
+				DCB3E4F01F170F2A00F9B264 /* Sources */,
+				DCB3E4F11F170F2A00F9B264 /* Frameworks */,
+				DCB3E4F21F170F2A00F9B264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB3E4F61F170F2A00F9B264 /* PBXTargetDependency */,
+			);
+			name = DrawerDemoTests;
+			productName = DrawerDemoTests;
+			productReference = DCB3E4F41F170F2A00F9B264 /* DrawerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCB3E4FE1F170F2A00F9B264 /* DrawerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB3E50E1F170F2A00F9B264 /* Build configuration list for PBXNativeTarget "DrawerDemoUITests" */;
+			buildPhases = (
+				DCB3E4FB1F170F2A00F9B264 /* Sources */,
+				DCB3E4FC1F170F2A00F9B264 /* Frameworks */,
+				DCB3E4FD1F170F2A00F9B264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB3E5011F170F2A00F9B264 /* PBXTargetDependency */,
+			);
+			name = DrawerDemoUITests;
+			productName = DrawerDemoUITests;
+			productReference = DCB3E4FF1F170F2A00F9B264 /* DrawerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB3E4D81F170F2A00F9B264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Coiney;
+				TargetAttributes = {
+					DCB3E4DF1F170F2A00F9B264 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					DCB3E4F31F170F2A00F9B264 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCB3E4DF1F170F2A00F9B264;
+					};
+					DCB3E4FE1F170F2A00F9B264 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DCB3E4DF1F170F2A00F9B264;
+					};
+				};
+			};
+			buildConfigurationList = DCB3E4DB1F170F2A00F9B264 /* Build configuration list for PBXProject "DrawerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB3E4D71F170F2A00F9B264;
+			productRefGroup = DCB3E4E11F170F2A00F9B264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB3E4DF1F170F2A00F9B264 /* DrawerDemo */,
+				DCB3E4F31F170F2A00F9B264 /* DrawerDemoTests */,
+				DCB3E4FE1F170F2A00F9B264 /* DrawerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB3E4DE1F170F2A00F9B264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3E4EE1F170F2A00F9B264 /* LaunchScreen.storyboard in Resources */,
+				DCB3E4EB1F170F2A00F9B264 /* Assets.xcassets in Resources */,
+				DCB3E4E91F170F2A00F9B264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3E4F21F170F2A00F9B264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3E4FD1F170F2A00F9B264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB3E4DC1F170F2A00F9B264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC51BB4F1F21CCEE00392073 /* CYDrawerView.m in Sources */,
+				DCB3E4E61F170F2A00F9B264 /* ViewController.swift in Sources */,
+				DCB3E4E41F170F2A00F9B264 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3E4F01F170F2A00F9B264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3E4F91F170F2A00F9B264 /* DrawerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3E4FB1F170F2A00F9B264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3E5041F170F2A00F9B264 /* DrawerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB3E4F61F170F2A00F9B264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB3E4DF1F170F2A00F9B264 /* DrawerDemo */;
+			targetProxy = DCB3E4F51F170F2A00F9B264 /* PBXContainerItemProxy */;
+		};
+		DCB3E5011F170F2A00F9B264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB3E4DF1F170F2A00F9B264 /* DrawerDemo */;
+			targetProxy = DCB3E5001F170F2A00F9B264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB3E4E71F170F2A00F9B264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB3E4E81F170F2A00F9B264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB3E4EC1F170F2A00F9B264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB3E4ED1F170F2A00F9B264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB3E5061F170F2A00F9B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB3E5071F170F2A00F9B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB3E5091F170F2A00F9B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DrawerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coiney.DrawerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawerDemo/DrawerDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DCB3E50A1F170F2A00F9B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = DrawerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coiney.DrawerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DrawerDemo/DrawerDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DCB3E50C1F170F2A00F9B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coiney.DrawerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerDemo.app/DrawerDemo";
+			};
+			name = Debug;
+		};
+		DCB3E50D1F170F2A00F9B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DrawerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coiney.DrawerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawerDemo.app/DrawerDemo";
+			};
+			name = Release;
+		};
+		DCB3E50F1F170F2A00F9B264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrawerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coiney.DrawerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrawerDemo;
+			};
+			name = Debug;
+		};
+		DCB3E5101F170F2A00F9B264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DrawerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.coiney.DrawerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrawerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB3E4DB1F170F2A00F9B264 /* Build configuration list for PBXProject "DrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3E5061F170F2A00F9B264 /* Debug */,
+				DCB3E5071F170F2A00F9B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB3E5081F170F2A00F9B264 /* Build configuration list for PBXNativeTarget "DrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3E5091F170F2A00F9B264 /* Debug */,
+				DCB3E50A1F170F2A00F9B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB3E50B1F170F2A00F9B264 /* Build configuration list for PBXNativeTarget "DrawerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3E50C1F170F2A00F9B264 /* Debug */,
+				DCB3E50D1F170F2A00F9B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB3E50E1F170F2A00F9B264 /* Build configuration list for PBXNativeTarget "DrawerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3E50F1F170F2A00F9B264 /* Debug */,
+				DCB3E5101F170F2A00F9B264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB3E4D81F170F2A00F9B264 /* Project object */;
+}

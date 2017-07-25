@@ -50,7 +50,7 @@ didSelectItemAtIndex:(NSInteger)aIndex;
 @property(readonly, nonnull) UIButton *openButton;
 @property(readonly, nonnull) UITableView *tableView;
 
-- (instancetype _Nonnull)init NS_UNAVAILABLE;
+- (instancetype _Nonnull)init;
 - (instancetype _Nonnull)initWithFrame:(CGRect)aFrame;
 - (instancetype _Nonnull)initWithCoder:(NSCoder * _Nonnull)aDecoder;
 

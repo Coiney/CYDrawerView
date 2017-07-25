@@ -39,6 +39,14 @@ CGFloat const kDefaultExtensionDistance = 300;
 @synthesize selectedItem = _selectedItem;
 @dynamic open;
 
+- (instancetype)init
+{
+    if ((self = [super init])) {
+        [self _init];
+    }
+    return self;
+}
+
 - (instancetype)initWithFrame:(CGRect const)aFrame
 {
     if ((self = [super initWithFrame:aFrame])) {

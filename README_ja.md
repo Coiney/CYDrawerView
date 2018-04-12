@@ -2,7 +2,7 @@
 
 開閉可能なメニューウィジェット
 
-![Example](.readme_images/example.png "Example")
+![Example](.readme_images/example.gif "Example")
 
 ## 概要
 

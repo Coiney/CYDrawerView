@@ -2,7 +2,7 @@
 
 A collapsing table view for presenting a list of options to choose from.
 
-![Example](.readme_images/example.png "Example")
+![Example](.readme_images/example.gif "Example")
 
 ## Overview
 

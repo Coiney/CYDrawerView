@@ -26,17 +26,17 @@
 
 @protocol CYDrawerViewDelegate <NSObject>
 @optional
-- (void)  drawerView:(CYDrawerView * _Nonnull)aDrawerView
+- (void)  drawerView:(nonnull CYDrawerView *)aDrawerView
 didSelectItemAtIndex:(NSInteger)aIndex;
-- (void)drawerViewDidOpen:(CYDrawerView * _Nonnull)aDrawerView;
-- (void)drawerViewDidClose:(CYDrawerView *_Nonnull)aDrawerView;
+- (void)drawerViewDidOpen:(nonnull CYDrawerView *)aDrawerView;
+- (void)drawerViewDidClose:(nonnull CYDrawerView *)aDrawerView;
 @end
 
 @protocol CYDrawerViewDataSource <NSObject>
 @required
-- (NSInteger)numberOfRowsInDrawerView:(CYDrawerView * _Nonnull)aDrawerView;
-- (NSString * _Nonnull)drawerView:(CYDrawerView * _Nonnull)aDrawerView
-                     titleForItem:(NSInteger)aIndex;  // Zero-indexed
+- (NSInteger)numberOfRowsInDrawerView:(nonnull CYDrawerView *)aDrawerView;
+- (nonnull NSString *)drawerView:(nonnull CYDrawerView *)aDrawerView
+                    titleForItem:(NSInteger)aIndex;  // Zero-indexed
 @end
 
 @interface CYDrawerView : UIView
@@ -50,9 +50,9 @@ didSelectItemAtIndex:(NSInteger)aIndex;
 @property(readonly, nonnull) UIButton *openButton;
 @property(readonly, nonnull) UITableView *tableView;
 
-- (instancetype _Nonnull)init;
-- (instancetype _Nonnull)initWithFrame:(CGRect)aFrame;
-- (instancetype _Nonnull)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (nonnull instancetype)init;
+- (nonnull instancetype)initWithFrame:(CGRect)aFrame;
+- (nonnull instancetype)initWithCoder:(nonnull NSCoder *)aDecoder;
 
 - (void)setOpen:(BOOL)aOpen animated:(BOOL)aAnimated;
 @end

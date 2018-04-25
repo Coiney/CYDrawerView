@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/Coiney/CYDrawerView.svg?branch=master)
+
 # CYDrawerView
 
 A collapsing table view for presenting a list of options to choose from.

@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/Coiney/CYDrawerView.svg?branch=master)
+
 # CYDrawerView
 
 開閉可能なメニューウィジェット

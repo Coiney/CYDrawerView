@@ -50,5 +50,5 @@ self.view.addConstraints(NSLayoutConstraint.constraints(
 
 ## 動作環境
 
-* Xcode 8
+* Xcode 10
 * iOS 8.0 以上

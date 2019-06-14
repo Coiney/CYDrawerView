@@ -51,5 +51,5 @@ self.view.addConstraints(NSLayoutConstraint.constraints(
 
 ## Requirements
 
-* Xcode 8
+* Xcode 10
 * iOS 8.0 and above

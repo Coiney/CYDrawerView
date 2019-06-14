@@ -10,12 +10,12 @@ import UIKit
 
 class ViewController: UIViewController, CYDrawerViewDataSource, CYDrawerViewDelegate {
 
-    @IBOutlet weak var drawerView: CYDrawerView?
+    @IBOutlet var drawerView: CYDrawerView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.drawerView!.dataSource = self
-        self.drawerView!.delegate = self
+        self.drawerView.dataSource = self
+        self.drawerView.delegate = self
     }
     
     // MARK: Drawer view data source
@@ -31,7 +31,7 @@ class ViewController: UIViewController, CYDrawerViewDataSource, CYDrawerViewDele
     // MARK: Drawer view delegate
     
     func drawerView(_ aDrawerView: CYDrawerView, didSelectItemAt aIndex: Int) {
-        self.drawerView!.isOpen = false
+        self.drawerView.isOpen = false
     }
 
 }
